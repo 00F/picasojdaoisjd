@@ -1,1 +1,1 @@
-# picasojdaoisjd
+worker: node bot.js
