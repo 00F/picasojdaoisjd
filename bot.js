@@ -24,9 +24,9 @@ const p10 = new D10.Client();
 const prefix = "M";
 /////////////////////////////////////////////////////////////////////////////////////////////////
 p1.on('message', function(message) {
-    const myID = "451129303137255434";
+    const myID = "320423357709549568";
     let args = message.content.split(" ").slice(1).join(" ");
-    if(message.content.startsWith(prefix + "نيم")) {
+    if(message.content.startsWith(prefix + "na")) {
                 if(message.author.id !== myID) return;
             if(!args) return message.reply('اكتب الحالة اللي تريدها.');
         p1.user.setUsername(args);
@@ -34,7 +34,7 @@ p1.on('message', function(message) {
            msg.delete(5000);
           message.delete(5000);
         });
-    } else if(message.content.startsWith(prefix + "افتار")) {
+    } else if(message.content.startsWith(prefix + "av")) {
                         if(message.author.id !== myID) return;
         p1.user.setAvatar(args);
         message.channel.send(':white_check_mark: Done!').then(msg => {
@@ -45,9 +45,9 @@ p1.on('message', function(message) {
     }
 });
 p2.on('message', function(message) {
-    const myID = "451129303137255434";
+    const myID = "320423357709549568";
     let args = message.content.split(" ").slice(1).join(" ");
-    if(message.content.startsWith(prefix + "نيم")) {
+    if(message.content.startsWith(prefix + "na")) {
                 if(message.author.id !== myID) return;
             if(!args) return message.reply('اكتب الحالة اللي تريدها.');
         p2.user.setUsername(args);
@@ -55,7 +55,7 @@ p2.on('message', function(message) {
            msg.delete(5000);
           message.delete(5000);
         });
-    } else if(message.content.startsWith(prefix + "افتار")) {
+    } else if(message.content.startsWith(prefix + "av")) {
                         if(message.author.id !== myID) return;
         p2.user.setAvatar(args);
         message.channel.send(':white_check_mark: Done!').then(msg => {
@@ -66,9 +66,9 @@ p2.on('message', function(message) {
     }
 });
 p3.on('message', function(message) {
-    const myID = "451129303137255434";
+    const myID = "320423357709549568";
     let args = message.content.split(" ").slice(1).join(" ");
-    if(message.content.startsWith(prefix + "نيم")) {
+    if(message.content.startsWith(prefix + "na")) {
                 if(message.author.id !== myID) return;
             if(!args) return message.reply('اكتب الحالة اللي تريدها.');
         p3.user.setUsername(args);
@@ -76,7 +76,7 @@ p3.on('message', function(message) {
            msg.delete(5000);
           message.delete(5000);
         });
-    } else if(message.content.startsWith(prefix + "افتار")) {
+    } else if(message.content.startsWith(prefix + "av")) {
                         if(message.author.id !== myID) return;
         p3.user.setAvatar(args);
         message.channel.send(':white_check_mark: Done!').then(msg => {
@@ -87,9 +87,9 @@ p3.on('message', function(message) {
     }
 });
 p4.on('message', function(message) {
-    const myID = "451129303137255434";
+    const myID = "320423357709549568";
     let args = message.content.split(" ").slice(1).join(" ");
-    if(message.content.startsWith(prefix + "نيم")) {
+    if(message.content.startsWith(prefix + "na")) {
                 if(message.author.id !== myID) return;
             if(!args) return message.reply('اكتب الحالة اللي تريدها.');
         p4.user.setUsername(args);
@@ -97,7 +97,7 @@ p4.on('message', function(message) {
            msg.delete(5000);
           message.delete(5000);
         });
-    } else if(message.content.startsWith(prefix + "افتار")) {
+    } else if(message.content.startsWith(prefix + "av")) {
                         if(message.author.id !== myID) return;
         p4.user.setAvatar(args);
         message.channel.send(':white_check_mark: Done!').then(msg => {
@@ -108,9 +108,9 @@ p4.on('message', function(message) {
     }
 });
 p5.on('message', function(message) {
-    const myID = "451129303137255434";
+    const myID = "320423357709549568";
     let args = message.content.split(" ").slice(1).join(" ");
-    if(message.content.startsWith(prefix + "نيم")) {
+    if(message.content.startsWith(prefix + "na")) {
                 if(message.author.id !== myID) return;
             if(!args) return message.reply('اكتب الحالة اللي تريدها.');
         p5.user.setUsername(args);
@@ -118,7 +118,7 @@ p5.on('message', function(message) {
            msg.delete(5000);
           message.delete(5000);
         });
-    } else if(message.content.startsWith(prefix + "افتار")) {
+    } else if(message.content.startsWith(prefix + "av")) {
                         if(message.author.id !== myID) return;
         p5.user.setAvatar(args);
         message.channel.send(':white_check_mark: Done!').then(msg => {
@@ -129,9 +129,9 @@ p5.on('message', function(message) {
     }
 });
 p6.on('message', function(message) {
-    const myID = "451129303137255434";
+    const myID = "320423357709549568";
     let args = message.content.split(" ").slice(1).join(" ");
-    if(message.content.startsWith(prefix + "نيم")) {
+    if(message.content.startsWith(prefix + "na")) {
                 if(message.author.id !== myID) return;
             if(!args) return message.reply('اكتب الحالة اللي تريدها.');
         p6.user.setUsername(args);
@@ -139,7 +139,7 @@ p6.on('message', function(message) {
            msg.delete(5000);
           message.delete(5000);
         });
-    } else if(message.content.startsWith(prefix + "افتار")) {
+    } else if(message.content.startsWith(prefix + "av")) {
                         if(message.author.id !== myID) return;
         p6.user.setAvatar(args);
         message.channel.send(':white_check_mark: Done!').then(msg => {
@@ -150,9 +150,9 @@ p6.on('message', function(message) {
     }
 });
 p7.on('message', function(message) {
-    const myID = "451129303137255434";
+    const myID = "320423357709549568";
     let args = message.content.split(" ").slice(1).join(" ");
-    if(message.content.startsWith(prefix + "نيم")) {
+    if(message.content.startsWith(prefix + "na")) {
                 if(message.author.id !== myID) return;
             if(!args) return message.reply('اكتب الحالة اللي تريدها.');
         p7.user.setUsername(args);
@@ -160,7 +160,7 @@ p7.on('message', function(message) {
            msg.delete(5000);
           message.delete(5000);
         });
-    } else if(message.content.startsWith(prefix + "افتار")) {
+    } else if(message.content.startsWith(prefix + "av")) {
                         if(message.author.id !== myID) return;
         p7.user.setAvatar(args);
         message.channel.send(':white_check_mark: Done!').then(msg => {
@@ -171,9 +171,9 @@ p7.on('message', function(message) {
     }
 });
 p8.on('message', function(message) {
-    const myID = "451129303137255434";
+    const myID = "320423357709549568";
     let args = message.content.split(" ").slice(1).join(" ");
-    if(message.content.startsWith(prefix + "نيم")) {
+    if(message.content.startsWith(prefix + "na")) {
                 if(message.author.id !== myID) return;
             if(!args) return message.reply('اكتب الحالة اللي تريدها.');
         p8.user.setUsername(args);
@@ -181,7 +181,7 @@ p8.on('message', function(message) {
            msg.delete(5000);
           message.delete(5000);
         });
-    } else if(message.content.startsWith(prefix + "افتار")) {
+    } else if(message.content.startsWith(prefix + "av")) {
                         if(message.author.id !== myID) return;
         p8.user.setAvatar(args);
         message.channel.send(':white_check_mark: Done!').then(msg => {
@@ -192,9 +192,9 @@ p8.on('message', function(message) {
     }
 });
 p9.on('message', function(message) {
-    const myID = "451129303137255434";
+    const myID = "320423357709549568";
     let args = message.content.split(" ").slice(1).join(" ");
-    if(message.content.startsWith(prefix + "نيم")) {
+    if(message.content.startsWith(prefix + "na")) {
                 if(message.author.id !== myID) return;
             if(!args) return message.reply('اكتب الحالة اللي تريدها.');
         p9.user.setUsername(args);
@@ -202,7 +202,7 @@ p9.on('message', function(message) {
            msg.delete(5000);
           message.delete(5000);
         });
-    } else if(message.content.startsWith(prefix + "افتار")) {
+    } else if(message.content.startsWith(prefix + "av")) {
                         if(message.author.id !== myID) return;
         p9.user.setAvatar(args);
         message.channel.send(':white_check_mark: Done!').then(msg => {
@@ -213,9 +213,9 @@ p9.on('message', function(message) {
     }
 });
 p10.on('message', function(message) {
-    const myID = "451129303137255434";
+    const myID = "320423357709549568";
     let args = message.content.split(" ").slice(1).join(" ");
-    if(message.content.startsWith(prefix + "نيم")) {
+    if(message.content.startsWith(prefix + "na")) {
                 if(message.author.id !== myID) return;
             if(!args) return message.reply('اكتب الحالة اللي تريدها.');
         p10.user.setUsername(args);
@@ -223,7 +223,7 @@ p10.on('message', function(message) {
            msg.delete(5000);
           message.delete(5000);
         });
-    } else if(message.content.startsWith(prefix + "افتار")) {
+    } else if(message.content.startsWith(prefix + "av")) {
                         if(message.author.id !== myID) return;
         p10.user.setAvatar(args);
         message.channel.send(':white_check_mark: Done!').then(msg => {
@@ -238,12 +238,12 @@ p10.on('message', function(message) {
 //////////////////////////////////////////////// حقوق ميرسي.
 
 p1.login(process.env.p1);
-p2.login(process.env.p1);
-p3.login(process.env.p1);
-p4.login(process.env.p1);
-p5.login(process.env.p1);
-p6.login(process.env.p1);
-p7.login(process.env.p1);
-p8.login(process.env.p1);
-p9.login(process.env.p1);
-p10.login(process.env.p1);
+p2.login(process.env.p2);
+p3.login(process.env.p3);
+p4.login(process.env.p4);
+p5.login(process.env.p5);
+p6.login(process.env.p6);
+p7.login(process.env.p7);
+p8.login(process.env.p8);
+p9.login(process.env.p9);
+p10.login(process.env.p10);
